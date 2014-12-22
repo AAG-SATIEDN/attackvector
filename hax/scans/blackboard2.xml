@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 5.61TEST2 scan initiated Sun Nov 20 05:16:59 2011 as: nmap -A -T4 -v -p 1-65535 -oX blackboard2.xml 165.134.236.150 -->
+<nmaprun scanner="nmap" args="nmap -A -T4 -v -p 1-65535 -oX blackboard2.xml 165.134.236.150" start="1321787819" startstr="Sun Nov 20 05:16:59 2011" version="5.61TEST2" xmloutputversion="1.03">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1321787819"/>
+<taskend task="Ping Scan" time="1321787819" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1321787819"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1321787825"/>
+<taskbegin task="SYN Stealth Scan" time="1321787825"/>
+<taskprogress task="SYN Stealth Scan" time="1321787916" percent="1.37" remaining="6532" etc="1321794448"/>
+<taskprogress task="SYN Stealth Scan" time="1321787946" percent="2.20" remaining="5386" etc="1321793332"/>
+<taskprogress task="SYN Stealth Scan" time="1321787976" percent="3.01" remaining="4868" etc="1321792843"/>
+<taskprogress task="SYN Stealth Scan" time="1321788006" percent="3.81" remaining="4568" etc="1321792574"/>
+<taskprogress task="SYN Stealth Scan" time="1321788057" percent="5.10" remaining="4321" etc="1321792377"/>
+<taskprogress task="SYN Stealth Scan" time="1321788111" percent="6.54" remaining="4088" etc="1321792198"/>
+<taskprogress task="SYN Stealth Scan" time="1321788193" percent="8.70" remaining="3860" etc="1321792053"/>
+<taskprogress task="SYN Stealth Scan" time="1321788310" percent="11.73" remaining="3649" etc="1321791958"/>
+<taskprogress task="SYN Stealth Scan" time="1321788472" percent="15.83" remaining="3440" etc="1321791911"/>
+<taskprogress task="SYN Stealth Scan" time="1321788631" percent="19.96" remaining="3233" etc="1321791863"/>
+<taskprogress task="SYN Stealth Scan" time="1321788851" percent="25.31" remaining="3028" etc="1321791878"/>
+<taskprogress task="SYN Stealth Scan" time="1321789014" percent="29.63" remaining="2825" etc="1321791838"/>
+<taskprogress task="SYN Stealth Scan" time="1321789189" percent="34.24" remaining="2621" etc="1321791809"/>
+<taskprogress task="SYN Stealth Scan" time="1321789360" percent="38.82" remaining="2420" etc="1321791779"/>
+<taskprogress task="SYN Stealth Scan" time="1321789552" percent="43.75" remaining="2221" etc="1321791772"/>
+<taskprogress task="SYN Stealth Scan" time="1321789784" percent="49.21" remaining="2022" etc="1321791806"/>
+<taskprogress task="SYN Stealth Scan" time="1321789997" percent="54.38" remaining="1822" etc="1321791819"/>
+<taskprogress task="SYN Stealth Scan" time="1321790189" percent="59.33" remaining="1621" etc="1321791809"/>
+<taskprogress task="SYN Stealth Scan" time="1321790409" percent="64.58" remaining="1418" etc="1321791826"/>
+<taskprogress task="SYN Stealth Scan" time="1321790586" percent="69.46" remaining="1214" etc="1321791800"/>
+<taskprogress task="SYN Stealth Scan" time="1321790784" percent="74.48" remaining="1014" etc="1321791798"/>
+<taskprogress task="SYN Stealth Scan" time="1321790976" percent="79.47" remaining="814" etc="1321791790"/>
+<taskprogress task="SYN Stealth Scan" time="1321791174" percent="84.50" remaining="615" etc="1321791788"/>
+<taskprogress task="SYN Stealth Scan" time="1321791372" percent="89.51" remaining="416" etc="1321791788"/>
+<taskprogress task="SYN Stealth Scan" time="1321791564" percent="94.51" remaining="218" etc="1321791781"/>
+<taskend task="SYN Stealth Scan" time="1321791778" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1321791778"/>
+<taskbegin task="Traceroute" time="1321791783"/>
+<taskend task="Traceroute" time="1321791784"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1321791784"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1321791785"/>
+<taskbegin task="NSE" time="1321791785"/>
+<taskend task="NSE" time="1321791785"/>
+<host starttime="1321787819" endtime="1321791785"><status state="up" reason="reset"/>
+<address addr="165.134.236.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="f-vl-bb-prodapp3.slu.edu" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65535">
+<extrareasons reason="no-responses" count="65535"/>
+</extraports>
+</ports>
+<os><osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="100"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="100"><cpe>cpe:/o:microsoft:windows_7:::enterprise</cpe></osclass>
+<osmatch name="Microsoft Windows Server 2008 SP1" accuracy="100" line="45595"/>
+<osmatch name="Microsoft Windows 7 Enterprise" accuracy="100" line="46272"/>
+</os>
+<distance value="2"/>
+<trace port="80" proto="tcp">
+<hop ttl="1" ipaddr="192.168.16.2" rtt="345.78"/>
+<hop ttl="2" ipaddr="165.134.236.150" rtt="332.95" host="f-vl-bb-prodapp3.slu.edu"/>
+</trace>
+<times srtt="506342" rttvar="326843" to="1250000"/>
+</host>
+<runstats><finished time="1321791785" timestr="Sun Nov 20 06:23:05 2011" elapsed="3966.36" summary="Nmap done at Sun Nov 20 06:23:05 2011; 1 IP address (1 host up) scanned in 3966.36 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
