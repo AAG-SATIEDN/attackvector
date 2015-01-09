@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 5.61TEST2 scan initiated Sun Nov 20 01:27:27 2011 as: nmap -A -T4 -v -p 1-65535 -oX blackboard0.xml 165.134.38.150 -->
+<nmaprun scanner="nmap" args="nmap -A -T4 -v -p 1-65535 -oX blackboard0.xml 165.134.38.150" start="1321774047" startstr="Sun Nov 20 01:27:27 2011" version="5.61TEST2" xmloutputversion="1.03">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1321774048"/>
+<taskend task="Ping Scan" time="1321774048" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1321774048"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1321774048"/>
+<taskbegin task="SYN Stealth Scan" time="1321774048"/>
+<taskprogress task="SYN Stealth Scan" time="1321774079" percent="3.33" remaining="901" etc="1321774980"/>
+<taskprogress task="SYN Stealth Scan" time="1321774109" percent="4.79" remaining="1212" etc="1321775321"/>
+<taskprogress task="SYN Stealth Scan" time="1321774139" percent="5.85" remaining="1466" etc="1321775605"/>
+<taskprogress task="SYN Stealth Scan" time="1321774204" percent="9.59" remaining="1471" etc="1321775674"/>
+<taskprogress task="SYN Stealth Scan" time="1321774282" percent="13.42" remaining="1510" etc="1321775792"/>
+<taskprogress task="SYN Stealth Scan" time="1321774510" percent="24.59" remaining="1417" etc="1321775927"/>
+<taskprogress task="SYN Stealth Scan" time="1321774630" percent="30.62" remaining="1319" etc="1321775949"/>
+<taskprogress task="SYN Stealth Scan" time="1321774738" percent="36.06" remaining="1224" etc="1321775961"/>
+<taskprogress task="SYN Stealth Scan" time="1321774846" percent="41.48" remaining="1127" etc="1321775972"/>
+<taskprogress task="SYN Stealth Scan" time="1321774951" percent="46.72" remaining="1030" etc="1321775981"/>
+<taskprogress task="SYN Stealth Scan" time="1321775059" percent="52.04" remaining="932" etc="1321775991"/>
+<taskprogress task="SYN Stealth Scan" time="1321775161" percent="57.22" remaining="833" etc="1321775993"/>
+<taskprogress task="SYN Stealth Scan" time="1321775260" percent="62.27" remaining="735" etc="1321775994"/>
+<taskprogress task="SYN Stealth Scan" time="1321775368" percent="67.61" remaining="633" etc="1321776000"/>
+<taskprogress task="SYN Stealth Scan" time="1321775473" percent="72.73" remaining="535" etc="1321776007"/>
+<taskprogress task="SYN Stealth Scan" time="1321775536" percent="50.49" remaining="1459" etc="1321776995"/>
+<taskprogress task="SYN Stealth Scan" time="1321775687" percent="55.57" remaining="1311" etc="1321776997"/>
+<taskprogress task="SYN Stealth Scan" time="1321775843" percent="60.73" remaining="1161" etc="1321777004"/>
+<taskprogress task="SYN Stealth Scan" time="1321775993" percent="65.76" remaining="1013" etc="1321777006"/>
+<taskprogress task="SYN Stealth Scan" time="1321776156" percent="70.93" remaining="864" etc="1321777020"/>
+<taskprogress task="SYN Stealth Scan" time="1321776303" percent="75.93" remaining="715" etc="1321777018"/>
+<taskprogress task="SYN Stealth Scan" time="1321776456" percent="80.97" remaining="566" etc="1321777022"/>
+<taskprogress task="SYN Stealth Scan" time="1321776609" percent="86.02" remaining="417" etc="1321777025"/>
+<taskprogress task="SYN Stealth Scan" time="1321776759" percent="91.10" remaining="265" etc="1321777024"/>
+<taskprogress task="SYN Stealth Scan" time="1321776909" percent="96.13" remaining="116" etc="1321777024"/>
+<taskend task="SYN Stealth Scan" time="1321777027" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1321777027"/>
+<taskend task="Service scan" time="1321777057" extrainfo="2 services on 1 host"/>
+<taskbegin task="Traceroute" time="1321777061"/>
+<taskend task="Traceroute" time="1321777061"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1321777061"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1321777061"/>
+<taskbegin task="NSE" time="1321777061"/>

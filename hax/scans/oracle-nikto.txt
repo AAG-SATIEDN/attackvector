@@ -1,0 +1,76 @@
+- Nikto v2.1.4
+---------------------------------------------------------------------------
++ Target IP:          165.134.234.12
++ Target Hostname:    165.134.234.12
++ Target Port:        80
++ Proxy:              127.0.0.1:8118
++ Start Time:         2011-12-17 14:55:03
+---------------------------------------------------------------------------
++ Server: Oracle-Application-Server-10g/10.1.2.0.2 Oracle-HTTP-Server OracleAS-Web-Cache-10g/10.1.2.3.0 (G;max-age=0+0;age=0;ecid=604227281548,0)
++ Server banner has changed from Oracle-Application-Server-10g/10.1.2.0.2 Oracle-HTTP-Server OracleAS-Web-Cache-10g/10.1.2.3.0 (G;max-age=0+0;age=0;ecid=604227281548,0) to Oracle-Application-Server-10g/10.1.2.0.2 Oracle-HTTP-Server OracleAS-Web-Cache-10g/10.1.2.3.0 (G;max-age=0+0;age=0;ecid=638587022163,0), this may suggest a WAF or load balancer is in place
++ ETag header found on server, inode: 0, size: 22289, mtime: 0x4c4cf6d0;4c4cf6ce
++ Number of sections in the version string differ from those in the database, the server reports: oracle-application-server-10g/10.1.2.0.2oracle-http-serveroracleas-web-cache-10g/10.1.2.3.0(g;max-age=0+0;age=0;ecid=604227281548,0) while the database has: 10.1.3.1.0. This may cause false positives.
++ Oracle-Application-Server-10g/10.1.2.0.2Oracle-HTTP-ServerOracleAS-Web-Cache-10g/10.1.2.3.0(G;max-age=0+0;age=0;ecid=604227281548,0) appears to be outdated (current is at least 10.1.3.1.0)
++ Allowed HTTP Methods: GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, PATCH, PROPFIND, PROPPATCH, MKCOL, COPY, MOVE, LOCK, UNLOCK, TRACE (May be proxy's methods, not server's)
++ OSVDB-397: HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server.
++ OSVDB-5646: HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server.
++ HTTP method ('Allow' Header): 'CONNECT' may allow server to proxy client requests.
++ OSVDB-5647: HTTP method ('Allow' Header): 'MOVE' may allow clients to change file locations on the web server.
++ WebDAV enabled (UNLOCK LOCK MKCOL COPY PROPPATCH PROPFIND listed as allowed)
++ OSVDB-877: HTTP TRACE method is active, suggesting the host is vulnerable to XST
++ /cgi-bin/banner.cgi: This CGI may allow attackers to read any file on the system.
++ /fcgi-bin/banner.cgi: This CGI may allow attackers to read any file on the system.
++ /cgi-bin/bannereditor.cgi: This CGI may allow attackers to read any file on the system.
++ /fcgi-bin/bannereditor.cgi: This CGI may allow attackers to read any file on the system.
++ /cgi-bin/addbanner.cgi: This CGI may allow attackers to read any file on the system.
++ /fcgi-bin/addbanner.cgi: This CGI may allow attackers to read any file on the system.
++ OSVDB-728: /admentor/adminadmin.asp: Version 2.11 of AdMentor is vulnerable to SQL injection during login, in the style of: ' or =
++ /cgi-bin/Count.cgi: This may allow attackers to execute arbitrary commands on the server
++ /fcgi-bin/Count.cgi: This may allow attackers to execute arbitrary commands on the server
++ /isapi/count.pl?: AN HTTPd default script may allow writing over arbitrary files with a new content of '1', which could allow a trivial DoS. Append /../../../../../ctr.dll to replace this file's contents, for example.
++ OSVDB-376: /admin/contextAdmin/contextAdmin.html: Tomcat may be configured to let attackers read arbitrary files. Restrict access to /admin.
++ OSVDB-700: /fcgi-bin/echo.exe?foo=<script>alert('Vulnerable')</script>: Fast-CGI has two default CGI programs (echo.exe/echo2.exe) vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ OSVDB-3954: /fcgi-bin/echo2.exe?foo=<script>alert('Vulnerable')</script>: Fast-CGI has two default CGI programs (echo.exe/echo2.exe) vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ OSVDB-561: /server-status: This reveals Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
++ OSVDB-3092: /cgi-bin/entropybanner.cgi: Default CGI, often with a hosting manager. No known problems, but host managers allow sys admin via web
++ OSVDB-3092: /fcgi-bin/entropybanner.cgi: Default CGI, often with a hosting manager. No known problems, but host managers allow sys admin via web
++ OSVDB-3092: /advwebadmin/: This might be interesting...probably HostingController, www.hostingcontroller.com
++ OSVDB-3092: /cgi-bin/clickcount.pl?view=test: This might be interesting...
++ OSVDB-3092: /fcgi-bin/clickcount.pl?view=test: This might be interesting...
++ OSVDB-3092: /cgi-bin/count.cgi: This might be interesting...
++ OSVDB-3092: /fcgi-bin/count.cgi: This might be interesting...
++ OSVDB-3092: /cgi-bin/textcounter.pl: This might be interesting...
++ OSVDB-3092: /fcgi-bin/textcounter.pl: This might be interesting...
++ OSVDB-13483: /adsamples/config/site.csc: Contains SQL username/password
++ OSVDB-3092: /advworks/equipment/catalog_type.asp: This might be interesting...
++ OSVDB-3092: /scripts/counter.exe: This might be interesting...
++ OSVDB-3093: /adv/gm001-mc/: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /dcp/advertiser.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /mambo/banners.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /poppassd.php3+: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /cgi-bin//_vti_bin/fpcount.exe?Page=default.htm|Image=3|Digits=15: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /fcgi-bin//_vti_bin/fpcount.exe?Page=default.htm|Image=3|Digits=15: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3233: /scripts/fpcount.exe: Default FrontPage CGI found.
++ OSVDB-3233: /index.html.de: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.en: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.es: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.fr: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.it: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /j2ee/: j2ee directory found--possibly an Oracle app server directory.
++ OSVDB-18114: /reports/rwservlet?server=repserv+report=/tmp/hacker.rdf+destype=cache+desformat=PDF:  Oracle Reports rwservlet report Variable Arbitrary Report Executable Execution
++ OSVDB-3233: /reports/rwservlet: Oracle Reports
++ OSVDB-3233: /reports/rwservlet/getjobid7?server=myrep: Oracle Reports
++ OSVDB-3233: /reports/rwservlet/getjobid4?server=myrep: Oracle Reports
++ OSVDB-3233: /reports/rwservlet/showmap?server=myserver: Oracle Reports
++ OSVDB-3093: /pls/portal/PORTAL_DEMO.ORG_CHART.SHOW: Access to Oracle pages could have an unknown impact.					
++ OSVDB-3093: /pls/portal/PORTAL.wwa_app_module.link: Access to Oracle pages could have an unknown impact.					
++ OSVDB-3093: /pls/portal/PORTAL.wwv_setting.render_css: Access to Oracle pages could have an unknown impact.					
++ OSVDB-3093: /pls/portal/PORTAL.wwv_main.render_warning_screen?p_oldurl=inTellectPRO&p_newurl=inTellectPRO: Access to Oracle pages could have an unknown impact.					
++ OSVDB-3093: /pls/portal/null: Access to Oracle pages could have an unknown impact.					
++ OSVDB-3233: /icons/README: Apache default file found.
++ OSVDB-3092: /ad/: This might be interesting... potential country code (Andorra)
++ /banneradmin/: Admin login page/section found.
++ 6456 items checked: 265 error(s) and 62 item(s) reported on remote host
++ End Time:           2011-12-17 21:37:11 (24128 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

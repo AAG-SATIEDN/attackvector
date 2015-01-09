@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 5.61TEST2 scan initiated Sun Nov 20 10:53:28 2011 as: nmap -A -T4 -v -p 1-65535 -oX blackboard3.xml 165.134.38.150 -->
+<nmaprun scanner="nmap" args="nmap -A -T4 -v -p 1-65535 -oX blackboard3.xml 165.134.38.150" start="1321808008" startstr="Sun Nov 20 10:53:28 2011" version="5.61TEST2" xmloutputversion="1.03">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1321808008"/>
+<taskend task="Ping Scan" time="1321808008" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1321808008"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1321808008"/>
+<taskbegin task="SYN Stealth Scan" time="1321808008"/>
+<taskprogress task="SYN Stealth Scan" time="1321808039" percent="2.01" remaining="1515" etc="1321809553"/>
+<taskprogress task="SYN Stealth Scan" time="1321808069" percent="2.51" remaining="2372" etc="1321810440"/>
+<taskprogress task="SYN Stealth Scan" time="1321808099" percent="2.86" remaining="3095" etc="1321811194"/>
+<taskprogress task="SYN Stealth Scan" time="1321808129" percent="3.43" remaining="3402" etc="1321811531"/>
+<taskprogress task="SYN Stealth Scan" time="1321808159" percent="4.02" remaining="3601" etc="1321811760"/>
+<taskprogress task="SYN Stealth Scan" time="1321808189" percent="4.52" remaining="3824" etc="1321812012"/>
+<taskprogress task="SYN Stealth Scan" time="1321808222" percent="5.04" remaining="4035" etc="1321812257"/>
+<taskprogress task="SYN Stealth Scan" time="1321808282" percent="6.05" remaining="4252" etc="1321812533"/>
+<taskprogress task="SYN Stealth Scan" time="1321808405" percent="8.14" remaining="4482" etc="1321812887"/>
+<taskprogress task="SYN Stealth Scan" time="1321809330" percent="17.83" remaining="6094" etc="1321815423"/>
+<taskprogress task="SYN Stealth Scan" time="1321809853" percent="24.39" remaining="5721" etc="1321815574"/>
+<taskprogress task="SYN Stealth Scan" time="1321810261" percent="29.66" remaining="5342" etc="1321815603"/>
+<taskprogress task="SYN Stealth Scan" time="1321810648" percent="34.74" remaining="4961" etc="1321815608"/>
+<taskprogress task="SYN Stealth Scan" time="1321811095" percent="40.27" remaining="4580" etc="1321815675"/>
+<taskprogress task="SYN Stealth Scan" time="1321811455" percent="45.11" remaining="4195" etc="1321815650"/>
+<taskprogress task="SYN Stealth Scan" time="1321811836" percent="50.10" remaining="3812" etc="1321815648"/>
+<taskprogress task="SYN Stealth Scan" time="1321812011" percent="53.91" remaining="3423" etc="1321815433"/>
+<taskprogress task="SYN Stealth Scan" time="1321812161" percent="57.73" remaining="3041" etc="1321815202"/>
+<taskprogress task="SYN Stealth Scan" time="1321812317" percent="61.68" remaining="2678" etc="1321814994"/>
+<taskprogress task="SYN Stealth Scan" time="1321812479" percent="65.82" remaining="2322" etc="1321814801"/>
+<taskprogress task="SYN Stealth Scan" time="1321812647" percent="70.10" remaining="1979" etc="1321814625"/>
+<taskprogress task="SYN Stealth Scan" time="1321812821" percent="74.53" remaining="1645" etc="1321814466"/>
+<taskprogress task="SYN Stealth Scan" time="1321813004" percent="79.10" remaining="1321" etc="1321814324"/>
+<taskprogress task="SYN Stealth Scan" time="1321813191" percent="83.84" remaining="1000" etc="1321814190"/>
+<taskprogress task="SYN Stealth Scan" time="1321813322" percent="69.60" remaining="2321" etc="1321815643"/>
+<taskprogress task="SYN Stealth Scan" time="1321813541" percent="74.06" remaining="1938" etc="1321815478"/>
+<taskprogress task="SYN Stealth Scan" time="1321813766" percent="78.65" remaining="1564" etc="1321815329"/>
+<taskprogress task="SYN Stealth Scan" time="1321814010" percent="83.41" remaining="1195" etc="1321815204"/>
+<taskprogress task="SYN Stealth Scan" time="1321814257" percent="88.25" remaining="832" etc="1321815089"/>
+<taskprogress task="SYN Stealth Scan" time="1321814512" percent="93.16" remaining="478" etc="1321814990"/>
+<taskprogress task="SYN Stealth Scan" time="1321814594" percent="77.97" remaining="1861" etc="1321816455"/>
+<taskprogress task="SYN Stealth Scan" time="1321814882" percent="82.72" remaining="1437" etc="1321816318"/>
+<taskprogress task="SYN Stealth Scan" time="1321815218" percent="87.62" remaining="1019" etc="1321816237"/>
+<taskprogress task="SYN Stealth Scan" time="1321815548" percent="92.58" remaining="605" etc="1321816152"/>
+<taskprogress task="SYN Stealth Scan" time="1321815881" percent="97.59" remaining="195" etc="1321816076"/>
+<taskend task="SYN Stealth Scan" time="1321816057" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1321816057"/>
+<taskend task="Service scan" time="1321816071" extrainfo="2 services on 1 host"/>
+<taskbegin task="Traceroute" time="1321816079"/>
+<taskend task="Traceroute" time="1321816079"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1321816079"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1321816079"/>
+<taskbegin task="NSE" time="1321816079"/>
+<taskend task="NSE" time="1321816082"/>
+<host starttime="1321808008" endtime="1321816082"><status state="up" reason="reset"/>
+<address addr="165.134.38.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="d-vl-bb-prodapp1.slu.edu" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65365">
+<extrareasons reason="no-responses" count="65365"/>
+</extraports>
+<extraports state="closed" count="168">
+<extrareasons reason="resets" count="168"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Apache httpd" version="1.3.41" extrainfo="(Unix) mod_gzip/1.3.26.1a mod_ssl/2.8.31 OpenSSL/0.9.8n mod_jk/1.2.28" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:1.3.41</cpe></service><script id="http-title" output="Did not follow redirect to https://d-vl-bb-prodapp1.slu.edu/webapps/login and no page was returned."/><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 401)"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="http" product="Apache httpd" version="1.3.41" extrainfo="(Unix) mod_gzip/1.3.26.1a mod_ssl/2.8.31 OpenSSL/0.9.8n mod_jk/1.2.28" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:1.3.41</cpe></service><script id="ssl-cert" output="Subject: commonName=global.slu.edu/organizationName=Saint Louis University/stateOrProvinceName=MO/countryName=US&#xa;Issuer: commonName=InCommon Server CA/organizationName=Internet2/countryName=US&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Not valid before: 2011-10-03 00:00:00&#xa;Not valid after:  2014-10-02 23:59:59&#xa;MD5:   5e5d 473c 4210 cb92 c3e3 488c dd63 6d3c&#xa;SHA-1: 3651 8ef0 2869 8ead fa98 cc61 53d5 93b6 3b95 a5ac"/><script id="http-methods" output="No Allow or Public header in OPTIONS response (status code 401)"/><script id="http-title" output="Blackboard Learn"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<portused state="closed" proto="tcp" portid="12"/>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="2008" accuracy="95"><cpe>cpe:/o:microsoft:windows_server_2008::sp1</cpe></osclass>
+<osclass type="general purpose" vendor="Microsoft" osfamily="Windows" osgen="7" accuracy="94"><cpe>cpe:/o:microsoft:windows_7:::enterprise</cpe></osclass>
+<osclass type="storage-misc" vendor="BlueArc" osfamily="embedded" accuracy="86"/>
+<osmatch name="Microsoft Windows Server 2008 SP1" accuracy="95" line="45595"/>
+<osmatch name="Microsoft Windows 7 Enterprise" accuracy="94" line="46272"/>
+<osmatch name="BlueArc Titan 2100 NAS device" accuracy="86" line="7126"/>
+</os>
+<distance value="2"/>
+<tcpsequence index="262" difficulty="Good luck!" values="CD2A5328,D4A7412F,3D04117D,A2C603D5,81FB02DC,23E24E76"/>
+<ipidsequence class="Busy server or unknown class" values="8A47,8A50,8A55,8A60,8A69,8A71"/>
+<tcptssequence class="none returned (unsupported)"/>
+<trace port="80" proto="tcp">
+<hop ttl="1" ipaddr="192.168.16.2" rtt="96.66"/>
+<hop ttl="2" ipaddr="165.134.38.150" rtt="90.13" host="d-vl-bb-prodapp1.slu.edu"/>
+</trace>
+<times srtt="66714" rttvar="25053" to="166926"/>
+</host>
+<runstats><finished time="1321816082" timestr="Sun Nov 20 13:08:02 2011" elapsed="8074.33" summary="Nmap done at Sun Nov 20 13:08:02 2011; 1 IP address (1 host up) scanned in 8074.33 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
