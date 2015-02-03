@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 5.59BETA1 scan initiated Fri Aug 26 19:56:43 2011 as: nmap -p 1-65535 -T4 -A -v -oX slu.edu.scan.xml 165.134.*.* -->
+<nmaprun scanner="nmap" args="nmap -p 1-65535 -T4 -A -v -oX slu.edu.scan.xml 165.134.*.*" start="1314406603" startstr="Fri Aug 26 19:56:43 2011" version="5.59BETA1" xmloutputversion="1.03">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
